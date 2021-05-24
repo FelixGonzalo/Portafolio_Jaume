@@ -1,0 +1,15 @@
+.message {
+  text-align: center;
+  padding: 40px 0 80px;
+}
+
+.message-description {
+  font: var(--headline6);
+  margin: 0;
+}
+
+.message-description span {
+  display: block;
+  font: var(--headline5);
+  padding: 24px 0px;
+}

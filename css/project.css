@@ -1,0 +1,48 @@
+.project {
+  padding-bottom: 40px;
+}
+
+.project-image {
+  max-inline-size: 100%;
+  flex: 1;
+  text-align: center;
+}
+
+.project-image img {
+  max-inline-size: 100%;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .project {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 0px;
+  }
+
+  .project-description {
+    flex: 1;
+  }
+
+  .project.is-right .project-image {
+    order: 2;
+  }
+
+  .project-options {
+    flex-direction: row;
+    justify-content: flex-end;
+    direction: rtl;
+  }
+}
